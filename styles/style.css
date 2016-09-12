@@ -1,13 +1,3 @@
-
-
-/*index.html
-use CSS styling to hide the bullet-points of the unordered list containing the book images.
-
-eloquentRuby.html
-The Eloquent Ruby book image should be left-aligned with the details about the book to the right of it.
-contact.html
-The site maintainer photo should be left-aligned and the message about contacting the site maintainer to the right of it.*/
-
 /*Place the Header/Title section across the top of the site with a border and appropriate background color. */
 header {
   border-style: solid;

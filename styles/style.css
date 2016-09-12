@@ -1,0 +1,62 @@
+
+
+/*index.html
+use CSS styling to hide the bullet-points of the unordered list containing the book images.
+
+eloquentRuby.html
+The Eloquent Ruby book image should be left-aligned with the details about the book to the right of it.
+contact.html
+The site maintainer photo should be left-aligned and the message about contacting the site maintainer to the right of it.*/
+
+/*Place the Header/Title section across the top of the site with a border and appropriate background color. */
+header {
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+  border-radius: 50px 15px;
+  padding: 12px;
+  background-color: #555152;
+}
+
+h1 {
+  color: white;
+  font-size: 24pt;
+}
+
+/*Provide an appropriate background color for the main content section*/
+/*Select appropriate fonts & colors for text on the site.*/
+body {
+  background-color: #99173C;
+  font-family: Helvetica, sans-serif;
+  color: black;
+}
+
+/*Use CSS styling to hide the bullet-points of the unordered lists in the site.*/
+ul {
+  list-style-type: none;
+}
+
+/*Make the navigation links display different colors when the mouse rolls over the link.*/
+a:hover {
+  color: #2E2633;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*use CSS styling to make all the images the same height*/
+img {
+  height: 400px;
+}
+
+/*Place the Footer section across the entire bottom of the site with a border and an appropriate background color*/
+footer {
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
+  border-radius: 15px 50px;
+  padding: 12px;
+  background-color: #555152;
+}

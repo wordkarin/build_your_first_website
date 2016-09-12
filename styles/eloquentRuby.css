@@ -1,0 +1,14 @@
+/*eloquentRuby.html*/
+/*The Eloquent Ruby book image should be left-aligned with the details about the book to the right of it.*/
+
+img {
+  position:relative;
+  margin-right:6px;
+	margin-bottom:6px;
+  /*border-style: dashed;*/
+  /*float: left;*/
+}
+
+ul {
+  float:right;
+}

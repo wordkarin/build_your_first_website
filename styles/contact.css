@@ -1,2 +1,15 @@
 /*contact.html*/
 /*The site maintainer photo should be left-aligned and the message about contacting the site maintainer to the right of it.*/
+
+img {
+  position:relative;
+  margin-right:6px;
+	margin-bottom:6px;
+  /*border-style: dashed;*/
+  float: left;
+}
+
+li img {
+  width: 50px;
+  height: 50px;
+}
